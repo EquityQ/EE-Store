@@ -155,6 +155,6 @@ This project uses the [MIT](https://choosealicense.com/licenses/mit/) license.
 ## Contact
 
 - Email: eq@eioe.fun
-- GitHub: [https://github.com/yourusername](https://github.com/EquityQ)
+- GitHub: [https://github.com/EquityQ](https://github.com/EquityQ)
 
 Thank you for using CloudJavaWeb! If you have any questions or suggestions, please feel free to contact us.
