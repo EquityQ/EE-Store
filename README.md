@@ -113,7 +113,7 @@ CloudJavaWeb-main/
 1. Make sure you have Java 21 and Maven installed.
 2. Navigate to the project root directory.
 3. Run the following command to build and start the backend service:
-4. By default, the backend service will run on `http://localhost:8080`.
+4. By default, the backend service will run on `http://localhost:8081`.
 
 ### Frontend
 
@@ -135,7 +135,8 @@ The frontend configuration file is located at `Vue/src/class/config.js`. You can
 
 ## API Documentation
 
-Backend API documentation can be automatically generated via Swagger. After starting the backend service, visit `http://localhost:8080/swagger-ui.html` to view the API documentation.
+Backend API documentation can be automatically generated via Swagger. After starting the backend service, visit `http://localhost:8081/swagger-ui/index.html#/ ` and `http://localhost:8081/api-docs `to view the API documentation.
+
 
 ## Contribution
 
