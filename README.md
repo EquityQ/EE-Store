@@ -3,6 +3,80 @@
 ## Project Structure
 
 ```
+CloudJavaWeb-main/
+├── Vue/
+│   ├── public/
+│   │   └── index.html
+│   └── src/
+│       ├── Vue-router/
+│       │   └── RouterConfig.js
+│       ├── class/
+│       │   └── config.js
+│       ├── components/
+│       │   ├── DataLocal.vue
+│       │   ├── FeetCop.vue
+│       │   └── TopperCop.vue
+│       ├── views/
+│       │   ├── payment/
+│       │   │   └── LocalPage.vue
+│       │   ├── shop/
+│       │   │   ├── CartPage.vue
+│       │   │   ├── InsertShop.vue
+│       │   │   ├── OrderPage.vue
+│       │   │   ├── ShopCom.vue
+│       │   │   └── UpdateShop.vue
+│       │   ├── user/
+│       │   │   ├── CodeInv.vue
+│       │   │   ├── UserLogin.vue
+│       │   │   └── UserRegister.vue
+│       │   └── LocalHost.vue
+│       ├── App.vue
+│       └── main.js
+│   ├── babel.config.js
+│   ├── jsconfig.json
+│   ├── package-lock.json
+│   ├── package.json
+│   └── vue.config.js
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── org/
+│       │       └── example/
+│       │           └── javawebv2/
+│       │               └── com/
+│       │                   └── v2/
+│       │                       ├── Controller/
+│       │                       │   ├── ElementController.java
+│       │                       │   ├── PayController.java
+│       │                       │   ├── SystemController.java
+│       │                       │   └── UserController.java
+│       │                       ├── Model/
+│       │                       │   ├── CartItem.java
+│       │                       │   ├── MyShopElement.java
+│       │                       │   ├── Mydata.java
+│       │                       │   ├── OrderRequest.java
+│       │                       │   ├── Orders.java
+│       │                       │   ├── User.java
+│       │                       │   └── element.java
+│       │                       ├── Service/
+│       │                       │   └── ... 3 files, 0 dirs not shown
+│       │                       ├── api/
+│       │                       │   └── ... 1 files, 0 dirs not shown
+│       │                       ├── mapper/
+│       │                       │   └── ... 4 files, 0 dirs not shown
+│       │                       └── utils/
+│       │                           └── ... 2 files, 0 dirs not shown
+│       │                   └── JavaWebV2Application.java
+│       └── resources/
+│           ├── static/
+│           │   ├── css/
+│           │   ├── js/
+│           │   └── index.html
+│           └── application.properties
+├── README.md
+├── cloud.sql
+├── mvnw.cmd
+└── pom.xml
 
 ```
 
